@@ -26,7 +26,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: public
-          path: public
+          path: __sapper__/build
 
   commit-build:
     needs: build
